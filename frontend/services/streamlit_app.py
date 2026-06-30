@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Put the repo root on sys.path so `from frontend.views import ...` resolves
 # regardless of the directory streamlit was launched from.
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 # Configure page
 st.set_page_config(
