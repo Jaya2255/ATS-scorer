@@ -55,8 +55,5 @@ GROQ_API_KEY       = os.getenv('GROQ_API_KEY', '')
 
 # List of approved origins for CORS security
 ALLOWED_ORIGINS = [
-    "http://localhost:8501",  # Standard Streamlit port
-    "http://localhost:8000",  # Standard FastAPI port
-    "http://localhost:3000",  # Standard React/NextJS port
-    "*"                       # (Optional) Allows all origins during local testing
+    "https://appapppy-vw7whhg7tzgeydpxtkzkxk.streamlit.app/"
 ]
