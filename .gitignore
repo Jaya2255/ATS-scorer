@@ -1,0 +1,5 @@
+venv/
+finetuned-bert/
+.env
+__pycache__/
+backend/logs/
